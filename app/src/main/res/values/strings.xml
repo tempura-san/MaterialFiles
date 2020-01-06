@@ -25,7 +25,7 @@
     <string name="merge">Merge</string>
     <string name="none">None</string>
     <string name="paste">Paste</string>
-    <string name="pick">@string/select</string>
+    <string name="pick" translatable="false">@string/select</string>
     <string name="refresh">Refresh</string>
     <string name="reload">Reload</string>
     <string name="remove">Remove</string>
@@ -46,7 +46,7 @@
 
     <!-- android.R.string.app_not_found -->
     <string name="activity_not_found">No application found to handle this action</string>
-    <string name="copied_to_clipboard_format">@string/preference_copied</string>
+    <string name="copied_to_clipboard_format" translatable="false">@string/preference_copied</string>
     <string name="open_settings">Open settings</string>
     <string name="shortcut_created">Shortcut created</string>
 
@@ -101,8 +101,8 @@
         <item quantity="one">Moving %1$,d file to “%2$s”</item>
         <item quantity="other">Moving %1$,d files to “%2$s”</item>
     </plurals>
-    <string name="file_job_transfer_size_notification_text_one">%1$s / %2$s</string>
-    <string name="file_job_transfer_size_notification_text_multiple">%1$,d / %2$,d</string>
+    <string name="file_job_transfer_size_notification_text_one" translatable="false">%1$s / %2$s</string>
+    <string name="file_job_transfer_size_notification_text_multiple" translatable="false">%1$,d / %2$,d</string>
     <plurals name="file_job_delete_scan_notification_title">
         <item quantity="one">Preparing to delete %1$,d file</item>
         <item quantity="other">Preparing to delete %1$,d files</item>
@@ -157,7 +157,7 @@
         <item quantity="one">Restoring SELinux context for %1$,d file</item>
         <item quantity="other">Restoring SELinux context for %1$,d files</item>
     </plurals>
-    <string name="file_job_transfer_count_notification_text_multiple">%1$,d / %2$,d</string>
+    <string name="file_job_transfer_count_notification_text_multiple" translatable="false">%1$,d / %2$,d</string>
     <string name="file_job_write_notification_title">Writing “%1$s”</string>
     <string name="file_job_create_error_title">Error while creating</string>
     <string name="file_job_create_error_message_format">There was an error creating “%1$s”.\n%2$s</string>
@@ -231,9 +231,9 @@
     <string name="file_delete_message_multiple_directories_format">Delete %1$,d folders and their contents?</string>
     <string name="file_delete_message_multiple_mixed_format">Delete %1$,d items?</string>
     <string name="file_create_archive_title">Create archive</string>
-    <string name="file_create_archive_type_zip">.zip</string>
-    <string name="file_create_archive_type_tar_xz">.tar.xz</string>
-    <string name="file_create_archive_type_7z">.7z</string>
+    <string name="file_create_archive_type_zip" translatable="false">.zip</string>
+    <string name="file_create_archive_type_tar_xz" translatable="false">.tar.xz</string>
+    <string name="file_create_archive_type_7z" translatable="false">.7z</string>
     <string name="file_add_bookmark_success">Bookmark added</string>
     <string name="file_create_file_title">New file</string>
     <string name="file_create_directory_title">New folder</string>
@@ -270,11 +270,11 @@
     <string name="file_list_action_open_in_terminal">Open in terminal</string>
     <string name="file_list_action_add_bookmark">Add bookmark</string>
     <string name="file_list_action_create_shortcut">Create shortcut</string>
-    <string name="file_list_breadcrumb_action_copy_path">@string/file_list_action_copy_path</string>
+    <string name="file_list_breadcrumb_action_copy_path" translatable="false">@string/file_list_action_copy_path</string>
     <string name="file_list_breadcrumb_action_open_in_new_task">Open in new window</string>
     <string name="file_list_select_title_format">%1$,d selected</string>
-    <string name="file_list_select_action_extract">@string/file_item_action_extract</string>
-    <string name="file_list_select_action_archive">@string/file_item_action_archive</string>
+    <string name="file_list_select_action_extract" translatable="false">@string/file_item_action_extract</string>
+    <string name="file_list_select_action_archive" translatable="false">@string/file_item_action_archive</string>
     <string name="file_list_select_current_directory_format">Select “%1$s”</string>
     <string name="file_list_paste_move_title_format">Moving %1$,d</string>
     <string name="file_list_paste_copy_title_format">Copying %1$,d</string>
@@ -284,24 +284,24 @@
     <string name="file_list_action_create_file">File</string>
     <string name="file_list_action_create_directory">Folder</string>
 
-    <string name="file_item_description_separator">"    "</string>
+    <string name="file_item_description_separator" translatable="false">"    "</string>
     <string name="file_item_action_open_with">Open with</string>
     <string name="file_item_action_extract">Extract</string>
     <string name="file_item_action_archive">Compress</string>
-    <string name="file_item_action_copy_path">@string/file_list_action_copy_path</string>
-    <string name="file_item_action_add_bookmark">@string/file_list_action_add_bookmark</string>
-    <string name="file_item_action_create_shortcut">@string/file_list_action_create_shortcut</string>
+    <string name="file_item_action_copy_path" translatable="false">@string/file_list_action_copy_path</string>
+    <string name="file_item_action_add_bookmark" translatable="false">@string/file_list_action_add_bookmark</string>
+    <string name="file_item_action_create_shortcut" translatable="false">@string/file_list_action_create_shortcut</string>
     <string name="file_item_action_properties">Properties</string>
 
     <string name="file_properties_title_format">“%1$s” properties</string>
     <string name="file_properties_basic">Basic</string>
     <string name="file_properties_basic_name">Name</string>
     <string name="file_properties_basic_type">Type</string>
-    <string name="file_properties_basic_type_format">%1$s (%2$s)</string>
+    <string name="file_properties_basic_type_format" translatable="false">%1$s (%2$s)</string>
     <string name="file_properties_basic_type_symbolic_link_format">Link to %1$s (%2$s)</string>
     <string name="file_properties_basic_symbolic_link_target">Link Target</string>
     <string name="file_properties_basic_size">Size</string>
-    <string name="file_properties_basic_size_with_human_readable_format">%1$s (%2$s)</string>
+    <string name="file_properties_basic_size_with_human_readable_format" translatable="false">%1$s (%2$s)</string>
     <string name="file_properties_basic_contents">Contents</string>
     <string name="file_properties_basic_last_modification_time">Last Modified</string>
     <string name="file_properties_basic_parent_directory">Parent Folder</string>
@@ -311,13 +311,13 @@
     <string name="file_properties_permissions">Permissions</string>
     <string name="file_properties_permissions_owner">Owner</string>
     <string name="file_properties_permissions_group">Group</string>
-    <string name="file_properties_permissions_principal_format">%1$s (%2$d)</string>
+    <string name="file_properties_permissions_principal_format" translatable="false">%1$s (%2$d)</string>
     <string name="file_properties_permissions_set_owner_title">Change owner</string>
     <string name="file_properties_permissions_set_group_title">Change group</string>
     <string name="file_properties_permissions_set_principal_filter_hint">Enter a name or ID</string>
     <string name="file_properties_permissions_set_principal_system">System</string>
     <string name="file_properties_permissions_mode">Mode</string>
-    <string name="file_properties_permissions_mode_format">%1$s (%2$04o)</string>
+    <string name="file_properties_permissions_mode_format" translatable="false">%1$s (%2$04o)</string>
     <string name="file_properties_permissions_set_mode_title">Change mode</string>
     <string name="file_properties_permissions_set_mode_others">Others</string>
     <string-array name="file_properties_permissions_set_mode_normal_mode_bits_file">
@@ -362,16 +362,16 @@
     <string name="navigation_edit_bookmark_directory_title">Bookmark folder</string>
     <string name="navigation_edit_bookmark_directory_name">Name</string>
     <string name="navigation_edit_bookmark_directory_path">Path</string>
-    <string name="navigation_ftp_server">@string/ftp_server_title</string>
-    <string name="navigation_settings">@string/settings_title</string>
-    <string name="navigation_about">@string/about_title</string>
+    <string name="navigation_ftp_server" translatable="false">@string/ftp_server_title</string>
+    <string name="navigation_settings" translatable="false">@string/settings_title</string>
+    <string name="navigation_about" translatable="false">@string/about_title</string>
 
     <string name="image_viewer_title">Image viewer</string>
     <string name="image_viewer_subtitle_format">%1$,d/%2$,d</string>
     <string name="image_viewer_delete_message_format">@string/file_delete_message_file_format</string>
     <string name="text_editor_title">Text editor</string>
-    <string name="text_editor_title_format">%1$s</string>
-    <string name="text_editor_title_changed_format">*%1$s</string>
+    <string name="text_editor_title_format" translatable="false">%1$s</string>
+    <string name="text_editor_title_changed_format" translatable="false">*%1$s</string>
     <string name="text_editor_save_success">Saved</string>
     <string name="text_editor_reload_message">Are you sure you want to reload? Unsaved changes to this document will be lost.</string>
     <string name="text_editor_close_message">Are you sure you want to discard unsaved changes to this document?</string>
@@ -393,7 +393,7 @@
     <string name="ftp_server_port_title">Port</string>
     <string name="ftp_server_home_directory_title">Root folder</string>
     <string name="ftp_server_writable_title">Allow writing</string>
-    <string name="ftp_server_notification_title">@string/ftp_server_title</string>
+    <string name="ftp_server_notification_title" translatable="false">@string/ftp_server_title</string>
     <string name="ftp_server_notification_text">FTP server is running</string>
 
     <string name="settings_title">Settings</string>
@@ -402,7 +402,7 @@
     <string name="settings_primary_color_summary">Color that appears most frequently in the app</string>
     <string name="settings_accent_color_title">Accent color</string>
     <string name="settings_accent_color_summary">Color used to accent key parts of the UI</string>
-    <string name="settings_material_design_2_title">Material Design 2</string>
+    <string name="settings_material_design_2_title" translatable="false">Material Design 2</string>
     <string name="settings_night_mode_title">Night mode</string>
     <string-array name="settings_night_mode_entries">
         <item>Follow system</item>
@@ -419,7 +419,7 @@
     <string name="settings_bookmark_directory_screenshots">Screenshots</string>
     <string name="settings_bookmark_directories_title">Bookmark folders</string>
     <string name="settings_bookmark_directories_summary_empty">No bookmark folders</string>
-    <string name="settings_bookmark_directories_empty">@string/settings_bookmark_directories_summary_empty</string>
+    <string name="settings_bookmark_directories_empty" translatable="false">@string/settings_bookmark_directories_summary_empty</string>
     <string name="settings_root_strategy_title">Root access mode</string>
     <plurals name="settings_root_strategy_message_format">
         <item quantity="one">You have %1$,d file operation running and changing root access mode now may result in unexpected error. Are you sure you want to change it now?</item>
@@ -487,6 +487,6 @@
     <string name="about_author_google_plus_title">Add to Google+ circles</string>
     <string name="about_author_twitter_title">Follow on Twitter</string>
 
-    <string name="shortcut_downloads_title">@string/navigation_standard_directory_downloads</string>
-    <string name="shortcut_ftp_server_title">@string/ftp_server_title</string>
+    <string name="shortcut_downloads_title" translatable="false">@string/navigation_standard_directory_downloads</string>
+    <string name="shortcut_ftp_server_title" translatable="false">@string/ftp_server_title</string>
 </resources>
